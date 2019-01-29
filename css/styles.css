@@ -1,0 +1,83 @@
+/*Body Styles  */
+body{
+  font-family: 'Oswald', 'Roboto';
+}
+/*Nav Bar*/
+nav {
+  background-color: #232f3b;
+}
+.navbar .navbar-brand {
+    color: #e1d8d9;
+    font-size: 36px;
+}
+.navbar-nav .nav-link{
+  color: #e1d8d9;
+  font-size: 24px;
+  margin-left: 15px;
+  padding: 0 10px;
+}
+.navbar-nav li a:hover {
+  background-color: #A93F05;
+  border-radius: 5%;
+  color: #e1d8d9;
+}
+/*Landing Page Content*/
+.header {
+  align-items:center;
+  background-image: url('../img/indian-food.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Oswald', sans-serif;
+  height: 1000px;
+  box-shadow: 0 0 0 1000px inset rgba(0,0,0,0.5);
+}
+.header-text {
+color: #e1d8d9;
+align-self: center;
+}
+.arrow {
+  width: 128px;
+  height: 128px;
+}
+/*Media Queries*/
+@media (min-width: 769px){
+  .header-content{
+    width:50%;
+    height:100%;
+}
+.header-content h1{
+  margin:0;
+  padding:0;
+  align-self: center;
+  font-size: 72px;
+}
+}
+/*Menu Content*/
+.menu-header{
+  background-image: url('../img/menu-food.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+.menu-header h1{
+  font-size: 82px;
+}
+.menu-items h3{
+  font-size: 24px
+}
+.menu-items p {
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.menu-items{
+  background-color: #232f3b;
+  font-family: 'Roboto';
+  color: #e1d8d9;
+}
+.menu {
+  background: linear-gradient(to left,#232f3b,#6c757d,#6c757d,#232f3b);
+}
+footer {
+    font-family: 'Roboto';
+    color: #e1d8d9;
+}
