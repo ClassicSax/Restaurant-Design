@@ -87,6 +87,9 @@ align-self: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
+
+}
+.location-header h1{
   color: #e1d8d9;
   font-size: 82px;
 }
