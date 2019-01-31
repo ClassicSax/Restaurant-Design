@@ -95,7 +95,10 @@ align-self: center;
 .location-content p{
   text-align: left;
   font-size: 18px;
+  font-family: 'Roboto';
 }
 .location-content h2{
   font-size: 24px;
+  text-align: center;
+  font-family: 'Oswald';
 }
