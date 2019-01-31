@@ -38,15 +38,10 @@ nav {
 color: #e1d8d9;
 align-self: center;
 }
-.arrow {
-  width: 128px;
-  height: 128px;
-}
 /*Media Queries*/
 @media (min-width: 769px){
   .header-content{
     width:50%;
-    height:100%;
 }
 .header-content h1{
   margin:0;
@@ -106,4 +101,24 @@ align-self: center;
   font-size: 36px;
   text-align: center;
   font-family: 'Oswald';
+}
+/*Reservations Page Content*/
+.reservation-header {
+  background-image: url('../img/clay-pot-fire.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  height:450px;
+}
+.reservation-header h1{
+  font-size: 82px;
+  color: #e1d8d9;
+}
+.reservation-content{
+  background: #232f3b;
+  font-size: 24px;
+  color: #e1d8d9;
+}
+
+.button:hover{
+  background: #A93F05;
 }
