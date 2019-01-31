@@ -61,6 +61,7 @@ align-self: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
+  box-shadow: 0 0 0 1000px inset rgba(0,0,0,0.5);
 }
 .menu-header h1{
   font-size: 82px;
