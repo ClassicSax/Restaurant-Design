@@ -2,6 +2,10 @@
 body{
   font-family: 'Oswald', 'Roboto';
 }
+footer {
+    font-family: 'Roboto';
+    color: #e1d8d9;
+}
 /*Nav Bar*/
 nav {
   background-color: #232f3b;
@@ -23,7 +27,6 @@ nav {
 }
 /*Landing Page Content*/
 .header {
-  align-items:center;
   background-image: url('../img/indian-food.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -77,7 +80,15 @@ align-self: center;
 .menu {
   background: linear-gradient(to left,#232f3b,#6c757d,#6c757d,#232f3b);
 }
-footer {
-    font-family: 'Roboto';
-    color: #e1d8d9;
+/*Locations Page Content*/
+.location-header {
+  background-image: url("../img/Locations-brickwall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  color: #e1d8d9;
+}
+.location-content{
+  color: #e1d8d9;
+  background-color: #232f3b;
 }
