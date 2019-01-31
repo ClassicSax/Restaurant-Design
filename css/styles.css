@@ -87,6 +87,7 @@ align-self: center;
   background-repeat: no-repeat;
   height: 450px;
   color: #e1d8d9;
+  font-size: 82px;
 }
 .location-content{
   color: #e1d8d9;
@@ -98,7 +99,7 @@ align-self: center;
   font-family: 'Roboto';
 }
 .location-content h2{
-  font-size: 24px;
+  font-size: 36px;
   text-align: center;
   font-family: 'Oswald';
 }
