@@ -71,22 +71,26 @@
      </div>
      <div class="row mx-1 mx-lg-auto" style="width:65%;">
        <label class="col-12">Phone Number:</label>
-       <input type="number" placeholder="Enter your phone number here" class="col-12">
+       <input type="tel" placeholder="Enter your phone number here" class="col-12">
      </div>
-     <div class="row mx-1 mx-lg-auto" style="width:65%;">
-       <label class="col-12 mt-3">Reservation Time:</label>
-       <input type="textarea" placeholder="Enter preferred time" class="col-10 w-50 mb-5">
-       <div class="btn-group btn-group-toggle col-2 mb-5" data-toggle="buttons">
-    <label class="btn btn-secondary active button">
-      <input type="radio" name="options" id="option1" autocomplete="off" checked> AM
-    </label>
-    <label class="btn btn-secondary button">
-      <input type="radio" name="options" id="option2" autocomplete="off"> PM
-    </label>
-  </div>
-  <div class="row mx-1 mb-5" style="width:65%;">
+       <div class="input-group row mx-1 my-3 mx-lg-auto" style="width:65%;">
+         <label for="time" class="col-12">Time:</label>
+         <select class="custom-select col-12" id="inputGroupSelect04" aria-label="Example select with button addon">
+           <option selected>Choose your preferred time</option>
+           <option value="1">5:00PM</option>
+           <option value="2">5:30PM</option>
+           <option value="3">6:00PM</option>
+           <option value="4">6:30PM</option>
+           <option value="5">7:00PM</option>
+           <option value="6">7:30PM</option>
+           <option value="7">8:00PM</option>
+           <option value="8">8:30PM</option>
+           <option value="9">9:00PM</option>
+         </select>
+       </div>
+
+  <div class="row mx-auto my-3 mb-5" style="width:65%;">
    <input class="btn button btn-secondary col-12 btn-lg" type="submit" value="Submit">
- </div>
  </div>
 </div>
 <div class="container.fluid w-75 mx-auto">
